@@ -24,4 +24,4 @@ jobs:
       - name: Smoke-test CLI
         run: |
           python scripts/forgepilot.py inspect .
-          python scripts/forgepilot.py check . --include-hidden.
+          python scripts/forgepilot.py check . --include-hidden
